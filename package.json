@@ -1,0 +1,15 @@
+
+{
+  "scripts": {
+    "npm run server": "npx json-server-auth http://jsonplaceholder.typicode.com/db",
+    "test": "mocha apiTests.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1"
+  }
+}
